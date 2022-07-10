@@ -1,5 +1,7 @@
 backend: 
-  name: test-repo
+  name: github
+  repo: asiakay/gatsby-netlify-okta-example
+  branch: main
 
 media_folder: static/assets
 public_folder: assets
@@ -14,4 +16,3 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-      
